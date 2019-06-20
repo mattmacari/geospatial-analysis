@@ -1,5 +1,7 @@
 FROM python:3.7
 
+LABEL Name=geojupyter
+
 RUN mkdir /geospatial
 
 WORKDIR /geospatial
